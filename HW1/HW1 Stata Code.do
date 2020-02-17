@@ -15,7 +15,7 @@ label variable recruiterismale "recruiterismale"
 label variable recruiteriswhite "recruiteriswhite"
 
 * Run regression: 
- reg calledback eliteschoolcandidate
+ reg calledback eliteschoolcandidate recruiterismale
 
 * Store regression
 eststo regression_one 
@@ -24,6 +24,6 @@ eststo regression_one
 **********************************
 * FOR PEOPLE USING MICROSOFT: 
 global tableoptions "bf(%15.2gc) sfmt(%15.2gc) se label noisily noeqlines nonumbers varlabels(_cons Constant, end("" ) nolast)  starlevels(* 0.1 ** 0.05 *** 0.01) replace r2"
-esttab regression_one using Elite-School-Effect.rtf, $tableoptions keep(eliteschoolcandidate) 
+esttab regression_one using Elite-School-Effect.rtf, $tableoptions keep(eliteschoolcandidate recruiterismale) 
 
 
