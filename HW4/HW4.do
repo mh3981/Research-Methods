@@ -1,3 +1,7 @@
+*What implicit claim about causality does Obama's "cycle of crime" theory assert? 
+*According to the “cycle of crime” theory, harsh sentencing of one-time convicts causes these convicts to become professional criminals (i.e., recidivism). Hence, paradoxically, harsh sentence might cause criminal justice to decrease instead of increase.
+
+
 *Read in data:
 insheet using crime-iv.csv
 
